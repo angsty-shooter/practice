@@ -29,7 +29,7 @@ function greet(data){
             console.log(`Welcome ${person.name} ${person.role}, Have a great day!`)
         }
         else{
-            console.log('Not a Codeworks employee.')
+            console.log(`${person.name} is not a Codeworks employee.`)
         }
     }
 }
